@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/525e05e1d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Coursify</title>
+</head>
+
+<body>
+    <div class="header-gradient">
+        <div class="nav-bar" id="my-nav-bar">
+            <nav class="nav container">
+                <div class="nav-logo">
+                    <h1>Cour<span>sify</span></h1>
+                </div>
+                <div class="nav-toggle" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="nav-items">
+                    <ul class="items">
+                        <li class="item">For Job Seekers</li>
+                        <li class="item">For Company</li>
+                    </ul>
+                    <div class="nav-btn">
+                        <button class="get-started-btn">Get Started</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="header-section">
+            <header class="header container">
+                <div class="header-body">
+                    <div class="header-body-content">
+                        <h1 class="hb-heading">Wanted To Be A Part Of Growing Team?</h1>
+                        <p class="hb-para">Get Hired As Software Engineer, Product Engineer, Data Scientist etc.</p>
+                        <button class="get-started-btn header-btn">Get Started</button>
+                    </div>
+                </div>
+                <div class="header-img">
+                    <img src="./assests/header.jpg" alt="header-img">
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <!-- Companies that hires from us -->
+    <section class="comapnies">
+        <div class="container">
+            <h2 class="section-heading">Companies That Hires From Us</h2>
+            <div class="companies-logos">
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/flipkart.png" alt="flipcat">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/Swiggy.png" alt="swiggy">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/zomato-logo.png" alt="zomato">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/rapido.png" alt="rapido">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/Uber.png" alt="uber">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/PharmEasy.png" alt="pharmeasy">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/Licious.png" alt="licious">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/Byjus.png" alt="byjus">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/Paytm.png" alt="paytm">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/Jubliant.png" alt="jublient">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/Shaadi.png" alt="shaadi">
+                </div>
+                <div class="logo">
+                    <img src="https://cdn.apna.co/cloudinary/home_page_images/Indiamart.png" alt="indiamart">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flow -->
+    <section class="process-flow">
+        <div class="container">
+            <h2 class="section-heading">Flow of Process</h2>
+            <div class="flow-cards">
+                <div class="card">
+                    <div class="card-logo">
+                        <img src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/feature_icon_2.png"
+                            alt="profile">
+                    </div>
+                    <div class="card-content">
+                        <h3>Step 1: Complete Profile</h3>
+                        <p>Once you are approved, we showcase you to leading Indian technology startups</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-logo">
+                        <img src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/icon1.png" alt="offer">
+                    </div>
+                    <div class="card-content">
+                        <h3>STEP 2: RECEIVE JOB OFFERS</h3>
+                        <p>Companies start sending interview requests. Talk to only the ones you like.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-logo">
+                        <img src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/icon2.png" alt="job">
+                    </div>
+                    <div class="card-content">
+                        <h3>STEP 3: ACCEPT DREAM JOB</h3>
+                        <p>Compare your offers and accept the best one. Hired!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer-section">
+        <footer class="container">
+            <div class="footer-content">
+                <div class="nav-logo footer-logo">
+                    <h1>Cour<span>sify</span></h1>
+                </div>
+                <div class="quick-links">
+                    <h2>Quick Links</h2>
+                    <ul class="links">
+                        <li><a href="#">For Employee</a></li>
+                        <li><a href="#">For Company</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-licence">@2023 All Right Reserved</p>
+        </footer>
+    </section>
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("my-nav-bar");
+        if (x.className === "nav-bar") {
+            x.className += " responsive";
+        } else {
+            x.className = "nav-bar";
+        }
+    }
+</script>
+
+</html>
